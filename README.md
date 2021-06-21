@@ -3,7 +3,7 @@ Reference: [Levelup](https://levelup.gitconnected.com/the-two-easiest-ways-to-sh
 #### Steps:
 - Build Project:  
 ```
-npm run build
+yarn build
 ```
 - You will have a build directory created by react. It will look like this:  
 !['Bild directory'](./images/1.png)
