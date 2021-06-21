@@ -1,5 +1,19 @@
+* {
+    outline: none;
+}
+
 div[id^='react-joyride-step-'] > div > div > div.react-joyride__tooltip {
     border-radius: 25px !important;
+}
+
+div[id^='react-joyride-step-']
+    > div
+    > div
+    > div.react-joyride__tooltip
+    > div:nth-child(1)
+    > div {
+    color: #27536c !important;
+    font-weight: bold !important;
 }
 
 div[id^='react-joyride-step-']
