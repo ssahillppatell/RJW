@@ -1,0 +1,55 @@
+div[id^='react-joyride-step-'] > div > div > div.react-joyride__tooltip {
+    border-radius: 25px !important;
+}
+
+div[id^='react-joyride-step-']
+    > div
+    > div
+    > div.react-joyride__tooltip
+    > div:nth-child(1)
+    > div {
+    padding: 10px 0 !important;
+}
+
+div[id^='react-joyride-step-']
+    > div
+    > div
+    > div.react-joyride__tooltip
+    > div:nth-child(2) {
+    justify-content: space-evenly !important;
+}
+
+div[id^='react-joyride-step-']
+    > div
+    > div
+    > div.react-joyride__tooltip
+    > div:nth-child(2)
+    > div {
+    display: none !important;
+}
+
+div[id^='react-joyride-step-']
+    > div
+    > div
+    > div.react-joyride__tooltip
+    > div:nth-child(2)
+    > button {
+    margin: 0 !important;
+    padding: 8px 20px !important;
+    border-radius: 20px !important;
+}
+
+[aria-label='Back'] {
+    border: 1px solid black !important;
+    color: black !important;
+}
+
+/* div[id^='react-joyride-step-']
+    > div
+    > div
+    > div.react-joyride__tooltip
+    > div:nth-child(2)
+    > button:nth-child(2) {
+    border: 1px solid black !important;
+    color: black !important;
+} */
