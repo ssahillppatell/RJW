@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import Joyride, { Step } from 'react-joyride';
 
+import { ReactComponent as Icon } from './icon.svg'
+
 import './App.css';
 
 const URL = 'https://60cb594321337e0017e4484b.mockapi.io/api/v1/target'
@@ -19,7 +21,14 @@ function App() {
 				const st = tempSteps.map((s: any) => {
 					return {
 						target: s.cssSelector,
-						title: s.title,
+						title: (
+							<>
+								{/* <img src={'src/icon-student.svg'} alt = "Student" /> */}
+								<Icon />
+								<br />
+								<span>{s.title}</span>
+							</>
+						),
 						content: s.content,
 					}
 				});
