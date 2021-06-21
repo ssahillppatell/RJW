@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import Joyride, { Step } from 'react-joyride';
 
-import { ReactComponent as Icon } from './icon.svg'
+import { ReactComponent as Icon } from './assets/images/icon.svg'
 
 import './App.css';
 

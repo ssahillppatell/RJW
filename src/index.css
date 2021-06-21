@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Aller';
+    src: url('./assets/fonts/Aller_Lt.ttf');
+}
+
+* {
+    font-family: 'Aller';
+}
