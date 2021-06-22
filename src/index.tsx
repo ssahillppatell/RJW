@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './index.css'
-import App from './App';
+import Ride from './components/Ride/Ride';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Ride />
   </React.StrictMode>,
   document.querySelector('#rjw')
 );

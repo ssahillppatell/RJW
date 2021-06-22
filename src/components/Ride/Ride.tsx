@@ -2,14 +2,14 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import Joyride, { Step } from 'react-joyride';
 
-import { ReactComponent as Icon } from './assets/images/icon.svg'
+import { ReactComponent as Icon } from '../../assets/images/icon.svg'
 
-import './App.css';
+import './Ride.css';
 
 const URL = 'https://60cb594321337e0017e4484b.mockapi.io/api/v1/target'
 
 let tempSteps: any;
-function App() {
+function Ride() {
     const [steps, setSteps] = useState([] as Step[])
 
 	useEffect(() => {
@@ -23,7 +23,6 @@ function App() {
 						target: s.cssSelector,
 						title: (
 							<>
-								{/* <img src={'src/icon-student.svg'} alt = "Student" /> */}
 								<Icon />
 								<br />
 								<span>{s.title}</span>
@@ -52,4 +51,4 @@ function App() {
     );
 }
 
-export default App;
+export default Ride;
